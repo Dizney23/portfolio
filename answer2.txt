@@ -1,0 +1,15 @@
+def pets_array(dogs)
+  dogs.each do |dog|
+    if dog.start_with? 'S'
+      puts "I'm #{dog}. My name starts with S for Super."
+    else
+      puts "I'm #{dog}. Im still pretty special too."
+
+    end
+  end
+end
+
+
+
+pets = ["Scooby", "Soco", "Summer", "Pixie", "Wilson", "Mason","Baron", "Brinkley", "Bella"]
+pets_array(pets)
